@@ -1,6 +1,6 @@
-# WhiteSkinLeather Landing Page
+# Luxury Leather Website
 
-This project is a landing page for White Skin Leather built using React, TypeScript, and Vite.
+This project is a website for Luxury Leather built using React, TypeScript, and Vite.
 
 ## Features
 
@@ -34,13 +34,13 @@ This project is a landing page for White Skin Leather built using React, TypeScr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/muhammad-ahmed02/whiteskinleather.git
+   git clone https://github.com/muhammad-ahmed02/luxuryleather.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd whiteskinleather
+   cd luxuryleather
    ```
 
 3. Install the dependencies:
@@ -67,7 +67,7 @@ This project is a landing page for White Skin Leather built using React, TypeScr
    yarn dev
    ```
 
-5. Open your browser and visit `http://localhost:3000` to see the landing page.
+5. Open your browser and visit `http://localhost:5173` to see the landing page.
 
 ## Project Structure
 
@@ -86,4 +86,4 @@ The project structure follows a standard React application structure:
 
 This project was previously developed by [SignorDev](https://github.com/signor1). It was created as a sample landing page for a travel agency based on the Jadoo brand.
 
-Now this project is developed by [muhammad-ahmed02](https://github.com/muhammad-ahmed02). It is a client business website named as White Skin Leather.
+Now this project is developed by [muhammad-ahmed02](https://github.com/muhammad-ahmed02). It is a client business website named as Luxury Leather.
