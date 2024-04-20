@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="flex flex-col justify-center md:gap-6 gap-3 md:order-1 order-2">
           <Text
             as="p"
-            className="text-color1 uppercase tracking-widest lg:text-base  text-sm font-normal"
+            className="text-color1 uppercase tracking-widest lg:text-base text-sm font-normal"
           >
             <Fade>{HeroTexts.firstText}</Fade>
           </Text>

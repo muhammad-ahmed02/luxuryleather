@@ -15,7 +15,7 @@ import {
 const Footer = () => {
   const date = new Date();
   return (
-    <footer className="w-full flex flex-col bg-white">
+    <footer className="w-full flex flex-col">
       <section className="w-full h-auto grid lg:grid-cols-4 md:grid-cols-3 lg:px-20 md:px-12 px-6 py-16 gap-7 md:gap-4 lg:gap-0">
         <div className="flex flex-col items-start gap-4">
           <Image className="w-28" image={logo} alt="Logo" as="a" href="/" />

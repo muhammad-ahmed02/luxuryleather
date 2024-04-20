@@ -16,7 +16,7 @@ export const SubscribeForm = () => {
           <Envelope size={18} color="currentColor" weight="fill" />
         </div>
       </Input> */}
-      <a href="mailto:whiteskinleather@gmail.com">
+      <a href="mailto:luxuryleather.hussain@gmail.com">
         <Button
           type="button"
           className="h-full border-none outline-none bg-color1 py-2 px-6 text-white font-light text-base rounded-lg"

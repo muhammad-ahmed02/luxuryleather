@@ -23,7 +23,7 @@ function App() {
   }, [directory.pathname]);
 
   return (
-    <div className="w-full bg-white text-gray-950 font-poppins">
+    <div className="w-full bg-slate-900 text-gray-50 font-poppins">
       {MAINTENANCE ? (
         <UnderConstruction />
       ) : (

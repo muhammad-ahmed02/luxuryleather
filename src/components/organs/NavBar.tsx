@@ -35,11 +35,11 @@ const NavBar = () => {
   }, []);
 
   return (
-    <header className="w-full h-auto bg-transparent fixed z-50 top-0 left-0">
+    <header className="w-full h-auto bg-transparent fixed z-50 top-0 left-0 mt-3">
       <Slide direction="down">
         <nav
           className={`md:h-24 h-20 ${
-            navBarColor ? "bg-white" : "bg-transparent"
+            navBarColor ? "bg-transparent" : "bg-transparent"
           } lg:px-24 md:px-12 px-8 flex justify-between items-center`}
         >
           <div className="md:w-[100px] w-[80px]">

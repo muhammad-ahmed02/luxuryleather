@@ -6,7 +6,7 @@ export default {
       colors: {
         color1: "#D7573B",
         color2: "#FA9C0F",
-        color3: "#152F37",
+        color3: "#E0FFFF",
         color4: "#35528B",
       },
       fontFamily: {

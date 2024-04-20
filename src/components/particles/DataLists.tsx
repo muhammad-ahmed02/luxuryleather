@@ -103,6 +103,30 @@ export const NavLinks = [
       {
         name: "Driving Gloves",
         url: "/driver-gloves",
+      },
+      {
+        name: "Canadian Gloves",
+        url: "/canadian-gloves",
+      },
+      {
+        name: "Welding Gloves",
+        url: "/welding-gloves",
+      },
+      {
+        name: "TPR Cut Gloves",
+        url: "/tpr-cut-gloves",
+      },
+      {
+        name: "PU Gloves",
+        url: "/pu-gloves",
+      },
+      {
+        name: "Gardening Gloves",
+        url: "/gardening-gloves",
+      },
+      {
+        name: "Working Gloves",
+        url: "/working-gloves",
       }
     ]
   },
@@ -137,8 +161,8 @@ export const NavButtons = [
 ];
 
 export const HeroTexts = {
-  firstText: "BEST LEATHER AROUND THE WORLD",
-  secondText: "Elevate Your Craft with WSL Working Gloves.",
+  firstText: "YOUR FIRST LEATHER CHOICE AROUND THE WORLD",
+  secondText: "Enhance your style with Luxury Leather Gloves.",
   thirdText:
     "Leather safety products are essential items designed to provide protection and durability in various industrial and personal safety applications.",
   firstButton: "Find out more",
@@ -560,8 +584,8 @@ export const FooterTexts = {
         url: "/#contact",
       },
       {
-        name: "whiteskinleather@gmail.com",
-        url: "mailto:whiteskinleather@gmail.com"
+        name: "luxuryleather.hussain@gmail.com",
+        url: "mailto:luxuryleather.hussain@gmail.com"
       },
       {
         name: "Plot No. 443+444+445, Sector 7/A Korangi Industrial Area, Karachi.",
