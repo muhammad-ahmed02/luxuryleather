@@ -88,6 +88,21 @@ import tig_0 from "../../assets/tig-gloves/tig_0.webp";
 import tig_1 from "../../assets/tig-gloves/tig_1.jpg";
 import tig_2 from "../../assets/tig-gloves/tig_2.png";
 
+// CRUST LEATHER
+import cl0 from "../../assets/leather/crust_leather/1.jpg";
+import cl1 from "../../assets/leather/crust_leather/2.jpg";
+import cl2 from "../../assets/leather/crust_leather/3.jpg";
+import cl3 from "../../assets/leather/crust_leather/4.jpg";
+import cl4 from "../../assets/leather/crust_leather/5.jpg";
+
+// FINISHED LEATHER
+import fl0 from "../../assets/leather/finished_leather/1.jpg";
+import fl1 from "../../assets/leather/finished_leather/2.jpg";
+import fl2 from "../../assets/leather/finished_leather/3.jpg";
+import fl3 from "../../assets/leather/finished_leather/4.jpg";
+import fl4 from "../../assets/leather/finished_leather/5.jpg";
+import fl5 from "../../assets/leather/finished_leather/6.jpg";
+
 export const NavLinks = [
   {
     name: "Services",
@@ -113,20 +128,16 @@ export const NavLinks = [
         url: "/welding-gloves",
       },
       {
-        name: "TPR Cut Gloves",
-        url: "/tpr-cut-gloves",
+        name: "Impact Gloves",
+        url: "/impact-gloves",
       },
       {
-        name: "PU Gloves",
-        url: "/pu-gloves",
+        name: "TIG Gloves",
+        url: "/tig-gloves",
       },
       {
-        name: "Gardening Gloves",
-        url: "/gardening-gloves",
-      },
-      {
-        name: "Working Gloves",
-        url: "/working-gloves",
+        name: "Welding Accessories",
+        url: "/welding-accessories",
       }
     ]
   },
@@ -162,7 +173,7 @@ export const NavButtons = [
 
 export const HeroTexts = {
   firstText: "YOUR FIRST LEATHER CHOICE AROUND THE WORLD",
-  secondText: "Enhance your style with Luxury Leather Gloves.",
+  secondText: "Enhance your style with Luxury Leather products.",
   thirdText:
     "Leather safety products are essential items designed to provide protection and durability in various industrial and personal safety applications.",
   firstButton: "Find out more",
@@ -216,44 +227,6 @@ export const TopProductsTexts = {
 };
 
 export const ProductsTexts = {
-  driver_gloves: {
-    title: "Driver Gloves",
-    cover: driver_cover,
-    cards: [
-      {
-        title: "DG-204",
-        image: dg,
-      },
-      {
-        title: "DG-205",
-        image: dg2,
-      },
-      {
-        title: "DG-206",
-        image: goatskin4,
-      },
-      {
-        title: "DG-207",
-        image: goatskin1,
-      },
-      {
-        title: "DG-208",
-        image: goatskin2,
-      },
-      {
-        title: "DG-209",
-        image: goatskin3,
-      },
-      {
-        title: "DG-210",
-        image: dgdp,
-      },
-      {
-        title: "DG-211",
-        image: goatskin5,
-      },
-    ],
-  },
   assembly_gloves: {
     title: "Assembly Gloves",
     cover: assembly_cover,
@@ -304,8 +277,46 @@ export const ProductsTexts = {
       },
     ],
   },
-  canadian_rigger_gloves: {
-    title: "Canadian Rigger Gloves",
+  driver_gloves: {
+    title: "Driver Gloves",
+    cover: driver_cover,
+    cards: [
+      {
+        title: "DG-204",
+        image: dg,
+      },
+      {
+        title: "DG-205",
+        image: dg2,
+      },
+      {
+        title: "DG-206",
+        image: goatskin4,
+      },
+      {
+        title: "DG-207",
+        image: goatskin1,
+      },
+      {
+        title: "DG-208",
+        image: goatskin2,
+      },
+      {
+        title: "DG-209",
+        image: goatskin3,
+      },
+      {
+        title: "DG-210",
+        image: dgdp,
+      },
+      {
+        title: "DG-211",
+        image: goatskin5,
+      },
+    ],
+  },
+  canadian_gloves: {
+    title: "Canadian Gloves",
     cover: rigger_cover,
     cards: [
       {
@@ -507,6 +518,63 @@ export const ProductsTexts = {
   },
 };
 
+export const LeatherTexts = {
+  crust_leather: {
+    title: "Crust Leather",
+    cards: [
+      {
+        title: "CL-100",
+        image: cl0,
+      },
+      {
+        title: "CL-101",
+        image: cl1,
+      },
+      {
+        title: "CL-102",
+        image: cl2,
+      },
+      {
+        title: "CL-103",
+        image: cl3,
+      },
+      {
+        title: "CL-104",
+        image: cl4,
+      }
+    ],
+  },
+  finished_leather: {
+    title: "Finished Leather",
+    cards: [
+      {
+        title: "FL-200",
+        image: fl0,
+      },
+      {
+        title: "FL-201",
+        image: fl1,
+      },
+      {
+        title: "FL-202",
+        image: fl2,
+      },
+      {
+        title: "FL-203",
+        image: fl3,
+      },
+      {
+        title: "FL-204",
+        image: fl4,
+      },
+      {
+        title: "FL-205",
+        image: fl5,
+      }
+    ],
+  }
+}
+
 export const BookingStepsTexts = {
   firstText: "Easy and Fast",
   secondText: "Book your next trip in 3 easy steps",
@@ -567,17 +635,13 @@ export const NewsletterTexts = {
 };
 
 export const FooterTexts = {
-  underLogoText: "Elevate Your Craft with WSL Working Gloves.",
+  underLogoText: "Enhance your style with Luxury Leather products.",
   quickLinks: {
     caption: "Quick Links",
     links: [
       {
         name: "Services",
         url: "/#services",
-      },
-      {
-        name: "Products",
-        url: "/#top-products",
       },
       {
         name: "Contact",
@@ -588,7 +652,7 @@ export const FooterTexts = {
         url: "mailto:luxuryleather.hussain@gmail.com"
       },
       {
-        name: "Plot No. 443+444+445, Sector 7/A Korangi Industrial Area, Karachi.",
+        name: "P&T Society P&T Chs Sector 31 D Korangi, Karachi, Pakistan.",
         url: "#"
       }
     ],

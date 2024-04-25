@@ -60,7 +60,27 @@ const NavBar = () => {
                   className="w-full text-base white-space-nowrap"
                   key={index}
                 >
-                  <div className="relative group">
+                  <div
+                    className="relative group"
+                    onMouseEnter={() => {
+                      if (navlink.dropdown) {
+                        setDropdownOpen((prevState) => {
+                          const newState = [...prevState];
+                          newState[index] = true;
+                          return newState;
+                        });
+                      }
+                    }}
+                    onMouseLeave={() => {
+                      if (navlink.dropdown) {
+                        setDropdownOpen((prevState) => {
+                          const newState = [...prevState];
+                          newState[index] = false;
+                          return newState;
+                        });
+                      }
+                    }}
+                  >
                     <HashLink
                       smooth
                       to="#"
@@ -69,8 +89,8 @@ const NavBar = () => {
                       {navlink.name}
                     </HashLink>
 
-                    {navlink.dropdown && (
-                      <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                    {navlink.dropdown && dropdownOpen[index] && (
+                      <div className="absolute left-0 mt-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 transition-opacity duration-200">
                         <div
                           className="py-1"
                           role="menu"
@@ -80,7 +100,7 @@ const NavBar = () => {
                           {navlink.dropdown.map((item, index) => (
                             <a
                               href={item.url}
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              className="block px-4 py-2 text-sm text-gray-700"
                               role="menuitem"
                               key={index}
                             >
@@ -136,7 +156,7 @@ const NavBar = () => {
         } transition-all duration-500 ease-out`}
       >
         <div
-          className={`w-[70%] h-screen bg-white flex flex-col justify-between items-center relative ${
+          className={`w-[70%] h-screen bg-gray-600 flex flex-col justify-between items-center relative ${
             open ? "right-0" : "-right-[120vw]"
           } transition-all duration-500 ease-out delay-300`}
         >
@@ -172,6 +192,9 @@ const NavBar = () => {
                             newState[index] = !newState[index];
                             return newState;
                           });
+                        } else {
+                          // navigate(navlink.url)
+                          handleToggle();
                         }
                       }}
                       className={`relative overflow-hidden inline-block before:w-full before:h-0.5 before:bg-color2 before:absolute before:bottom-0 before:-left-full before:rounded-full before:transition-all before:duration-200 before:ease-in hover:before:left-0 `}
