@@ -40,7 +40,7 @@ const NavBar = () => {
         <nav
           className={`md:h-24 h-20 ${
             navBarColor ? "bg-transparent" : "bg-transparent"
-          } lg:px-24 md:px-12 px-8 flex justify-between items-center`}
+          } lg:px-24 md:px-12 px-8 flex justify-between items-center py-4`}
         >
           <div className="md:w-[100px] w-[80px]">
             <Image
@@ -83,7 +83,7 @@ const NavBar = () => {
                   >
                     <HashLink
                       smooth
-                      to="#"
+                      to={navlink.url || "#"}
                       className="relative inline-block overflow-hidden pt-2 pl-2 before:w-2 before:h-2 before:bg-color2 before:absolute before:top-2 before:-left-10 before:rounded-full before:transition-all before:duration-200 before:ease-in hover:before:left-0.5 after:w-0.5 after:h-3 after:bg-color2 after:absolute after:left-1 after:-top-10 hover:after:top-3.5 after:transition-all after:duration-200 after:ease-in"
                     >
                       {navlink.name}

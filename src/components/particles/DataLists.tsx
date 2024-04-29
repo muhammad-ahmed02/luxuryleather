@@ -109,7 +109,7 @@ export const NavLinks = [
     url: "/#services",
   },
   {
-    name: "Products",
+    name: "PPE",
     dropdown: [
       {
         name: "Assembly Gloves",
@@ -155,8 +155,12 @@ export const NavLinks = [
     ]
   },
   {
+    name: "About",
+    url: "/about",
+  },
+  {
     name: "Contact",
-    url: "/#contact",
+    url: "/contact",
   },
 ];
 

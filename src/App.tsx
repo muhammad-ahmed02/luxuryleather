@@ -11,6 +11,8 @@ import { useEffect } from "react";
 import Footer from "./components/organs/Footer";
 import UnderConstruction from "./components/organs/UnderConstruction";
 import Products from "./components/pages/Products";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 
 function App() {
   const directory = useLocation();
@@ -32,6 +34,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:name" element={<Products />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
         </>
