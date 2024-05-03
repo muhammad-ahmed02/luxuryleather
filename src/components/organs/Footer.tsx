@@ -4,20 +4,20 @@ import { Text } from "../atoms/Text";
 import { FooterTexts } from "../particles/DataLists";
 import { List } from "../atoms/List";
 import { Link } from "react-router-dom";
-// import {
-//   FacebookLogo,
-//   InstagramLogo,
-//   WhatsappLogo,
-//   LinkedinLogo,
-// } from "@phosphor-icons/react";
+import {
+  FacebookLogo,
+  InstagramLogo,
+  WhatsappLogo,
+  LinkedinLogo,
+} from "@phosphor-icons/react";
 // import app from "../../assets/leather.png"
 
 const Footer = () => {
   const date = new Date();
   return (
     <footer className="w-full flex flex-col">
-      <section className="w-full h-auto grid lg:grid-cols-3 md:grid-cols-3 lg:px-20 md:px-12 px-6 py-16 gap-7 md:gap-4 lg:gap-0">
-        <div className="flex flex-col items-start gap-3">
+      <section className="w-full h-auto grid lg:grid-cols-4 md:grid-cols-4 lg:px-20 md:px-12 px-6 py-16 gap-7 md:gap-4 lg:gap-0">
+        <div className="flex flex-col items-start gap-4">
           <Image className="w-28" image={logo} alt="Logo" as="a" href="/" />
           <Text className="text-sm text-color3" as="p">
             {FooterTexts.underLogoText}
@@ -72,11 +72,11 @@ const Footer = () => {
                     </ul>
                 </div> */}
 
-        {/* <div className="flex flex-col lg:items-center w-full md:mt-8 gap-4">
+        <div className="flex flex-col lg:items-center w-full md:mt-8 gap-4">
           <ul className="w-full flex items-center lg:justify-center gap-4">
             <List>
               <Link
-                to={`https://www.facebook.com/profile.php?id=100091079467768`}
+                to={`https://www.facebook.com/profile.php?id=61558121955083`}
                 target="_blank"
                 className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
@@ -85,7 +85,7 @@ const Footer = () => {
             </List>
             <List>
               <Link
-                to={`https://www.instagram.com/whiteskinleather/`}
+                to={`https://www.instagram.com/luxury__leatherr`}
                 target="_blank"
                 className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
@@ -94,7 +94,7 @@ const Footer = () => {
             </List>
             <List>
               <Link
-                to={`https://wa.me/923351261286`}
+                to={`https://wa.me/923160287352`}
                 target="_blank"
                 className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
@@ -103,7 +103,7 @@ const Footer = () => {
             </List>
             <List>
               <Link
-                to={`https://www.linkedin.com/in/white-skin-leather-0b7764282/?originalSubdomain=pk`}
+                to={`https://www.linkedin.com/in/luxury-leather-640b39304`}
                 target="_blank"
                 className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
@@ -111,11 +111,11 @@ const Footer = () => {
               </Link>
             </List>
           </ul>
-          <Text as="p" className="text-base font-light text-color4">
+          {/* <Text as="p" className="text-base font-light text-color4">
                         Discover Our App
                     </Text>
-                    <Image image={app} className="w-28" alt="App Download" as="a" href="/" />
-        </div> */}
+                    <Image image={app} className="w-28" alt="App Download" as="a" href="/" /> */}
+        </div>
         <div className="flex flex-col items-start gap-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.987865136969!2d67.11968860000002!3d24.830088599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33b0024669bab%3A0x5f992ba1140957fe!2sLuxuryLeather!5e0!3m2!1sen!2sus!4v1714058410465!5m2!1sen!2sus"

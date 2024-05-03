@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
       <ul className="list-disc pl-4">
         <li>Phone: +92 316 0287352</li>
         <li>Phone: +92 333 2181581</li>
-        <li>Email: luxuryleather.husnain@gmail.com</li>
+        <li>Email: luxuryleather.hussain@gmail.com</li>
         {/* <li>Email: support@youremail.com</li> */}
       </ul>
     </div>

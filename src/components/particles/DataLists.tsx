@@ -1,10 +1,10 @@
 // TOP PRODUCTS
-import top from "../../assets/canadian-rigger-gloves/top.png"
-import top2 from "../../assets/top2.jpg";
-import top3 from "../../assets/top3.png";
-import top4 from "../../assets/top4.png";
-import top5 from "../../assets/top5.png";
-import top6 from "../../assets/top6.png";
+import top1 from "../../assets/top-products/top1.jpg"
+import top2 from "../../assets/top-products/top2.jpg";
+import top3 from "../../assets/top-products/top3.png";
+import top4 from "../../assets/top-products/welding.jpg";
+import top5 from "../../assets/top-products/top5.png";
+import top6 from "../../assets/top-products/top6.png";
 
 // DRIVER GLOVES
 import driver_cover from "../../assets/driver_gloves/driver-gloves.webp";
@@ -20,7 +20,7 @@ import goatskin5 from "../../assets/driver_gloves/Goatskin-Working-Gloves_5.png"
 // ASSEMBLY GLOVES
 import assembly_cover from "../../assets/covers/assembly-cover.jpg";
 import ag from "../../assets/assembly_gloves/ag.jpg";
-import ag2 from "../../assets/assembly_gloves/ag2.jpg";
+// import ag2 from "../../assets/assembly_gloves/ag2.jpg";
 import assembly0 from "../../assets/assembly_gloves/assembly-gloves_0.jpg";
 import assembly1 from "../../assets/assembly_gloves/assembly-gloves_1.jpg";
 import assembly2 from "../../assets/assembly_gloves/assembly-gloves_2.png";
@@ -52,6 +52,8 @@ import impact0 from "../../assets/impact-gloves/impact-gloves0.jpg";
 import impact1 from "../../assets/impact-gloves/impact-gloves1.jpg";
 import impact2 from "../../assets/impact-gloves/impact-gloves2.jpg";
 import impact3 from "../../assets/impact-gloves/impact-gloves3.jpg";
+import impact4 from "../../assets/impact-gloves/impact-gloves4.jpg";
+import impact5 from "../../assets/impact-gloves/impact-gloves5.jpg";
 
 // WELDING GLOVES
 import welding_cover from "../../assets/covers/welding-cover.jpg";
@@ -89,6 +91,7 @@ import tig_1 from "../../assets/tig-gloves/tig_1.jpg";
 import tig_2 from "../../assets/tig-gloves/tig_2.png";
 
 // CRUST LEATHER
+import cl_cover from "../../assets/leather/crust_leather/cover.jpg";
 import cl0 from "../../assets/leather/crust_leather/1.jpg";
 import cl1 from "../../assets/leather/crust_leather/2.jpg";
 import cl2 from "../../assets/leather/crust_leather/3.jpg";
@@ -96,12 +99,20 @@ import cl3 from "../../assets/leather/crust_leather/4.jpg";
 import cl4 from "../../assets/leather/crust_leather/5.jpg";
 
 // FINISHED LEATHER
+import fl_cover from "../../assets/leather/finished_leather/cover.jpg";
 import fl0 from "../../assets/leather/finished_leather/1.jpg";
 import fl1 from "../../assets/leather/finished_leather/2.jpg";
 import fl2 from "../../assets/leather/finished_leather/3.jpg";
 import fl3 from "../../assets/leather/finished_leather/4.jpg";
 import fl4 from "../../assets/leather/finished_leather/5.jpg";
 import fl5 from "../../assets/leather/finished_leather/6.jpg";
+
+// GALLERY
+import gallery1 from "../../assets/gallery/1.jpg";
+import gallery2 from "../../assets/gallery/2.jpg";
+import gallery3 from "../../assets/gallery/3.jpg";
+import gallery4 from "../../assets/gallery/4.jpg";
+import gallery5 from "../../assets/gallery/5.jpg";
 
 export const NavLinks = [
   {
@@ -191,10 +202,12 @@ export const ServiceTexts = {
     {
       firstText: "Leather Manufacturing",
       secondText: "Leather manufacturing industry in Pakistan.",
+      url: "/finished-leather"
     },
     {
       firstText: "Safety Gloves",
       secondText: "Industrials plants for safety glvoes manufacturing.",
+      url: "/assembly-gloves"
     },
   ],
 };
@@ -204,8 +217,8 @@ export const TopProductsTexts = {
   secondText: "Top Products",
   cards: [
     {
-      title: "Canadian Rigger Gloves",
-      image: top,
+      title: "Assembly Glove",
+      image: top1,
     },
     {
       title: "Leather Appron",
@@ -236,47 +249,43 @@ export const ProductsTexts = {
     cover: assembly_cover,
     cards: [
       {
-        title: "AG-300",
+        title: "SGAG-32500",
         image: ag,
       },
       {
-        title: "AG-301",
-        image: ag2,
-      },
-      {
-        title: "AG-302",
+        title: "SGAG-32502",
         image: assembly3,
       },
       {
-        title: "AG-303",
+        title: "SGAG-32503",
         image: assembly5,
       },
       {
-        title: "AG-304",
+        title: "SGAG-32504",
         image: assembly8,
       },
       {
-        title: "AG-305",
+        title: "SGAG-32505",
         image: assembly0,
       },
       {
-        title: "AG-306",
+        title: "SGAG-32506",
         image: assembly4,
       },
       {
-        title: "AG-307",
+        title: "SGAG-32507",
         image: assembly1,
       },
       {
-        title: "AG-308",
+        title: "SGAG-32508",
         image: assembly6,
       },
       {
-        title: "AG-309",
+        title: "SGAG-32509",
         image: assembly2,
       },
       {
-        title: "AG-310",
+        title: "SGAG-32510",
         image: assembly7,
       },
     ],
@@ -286,35 +295,35 @@ export const ProductsTexts = {
     cover: driver_cover,
     cards: [
       {
-        title: "DG-204",
+        title: "DGPPE-34204",
         image: dg,
       },
       {
-        title: "DG-205",
+        title: "DGPPE-34205",
         image: dg2,
       },
       {
-        title: "DG-206",
+        title: "DGPPE-34206",
         image: goatskin4,
       },
       {
-        title: "DG-207",
+        title: "DGPPE-34207",
         image: goatskin1,
       },
       {
-        title: "DG-208",
+        title: "DGPPE-34208",
         image: goatskin2,
       },
       {
-        title: "DG-209",
+        title: "DGPPE-34209",
         image: goatskin3,
       },
       {
-        title: "DG-210",
+        title: "DGPPE-34210",
         image: dgdp,
       },
       {
-        title: "DG-211",
+        title: "DGPPE-34211",
         image: goatskin5,
       },
     ],
@@ -324,51 +333,51 @@ export const ProductsTexts = {
     cover: rigger_cover,
     cards: [
       {
-        title: "CR-704",
+        title: "SGCG-71904",
         image: cdpif,
       },
       {
-        title: "CR-705",
+        title: "SGCG-71905",
         image: cr0,
       },
       {
-        title: "CR-706",
+        title: "SGCG-71906",
         image: cr1,
       },
       {
-        title: "CR-707",
+        title: "SGCG-71907",
         image: cr2,
       },
       {
-        title: "CR-708",
+        title: "SGCG-71908",
         image: cr3,
       },
       {
-        title: "CR-709",
+        title: "SGCG-71909",
         image: cr4,
       },
       {
-        title: "CR-710",
+        title: "SGCG-71910",
         image: cr5,
       },
       {
-        title: "CR-711",
+        title: "SGCG-71911",
         image: cr6,
       },
       {
-        title: "CR-712",
+        title: "SGCG-71912",
         image: cr7,
       },
       {
-        title: "CR-713",
+        title: "SGCG-71913",
         image: cr8,
       },
       {
-        title: "CR-714",
+        title: "SGCG-71914",
         image: gcr,
       },
       {
-        title: "CR-715",
+        title: "SGCG-71915",
         image: gcr0,
       },
     ],
@@ -378,20 +387,28 @@ export const ProductsTexts = {
     cover: impact_cover,
     cards: [
       {
-        title: "IG-104",
+        title: "LLIG-13404",
         image: impact0,
       },
       {
-        title: "IG-105",
+        title: "LLIG-13405",
         image: impact1,
       },
       {
-        title: "IG-106",
+        title: "LLIG-13406",
         image: impact2,
       },
       {
-        title: "IG-107",
+        title: "LLIG-13407",
         image: impact3,
+      },
+      {
+        title: "LLIG-13408",
+        image: impact4,
+      },
+      {
+        title: "LLIG-13409",
+        image: impact5,
       },
     ],
   },
@@ -400,51 +417,51 @@ export const ProductsTexts = {
     cover: welding_cover,
     cards: [
       {
-        title: "WG-801",
+        title: "GWLG-0901",
         image: welding_dp0,
       },
       {
-        title: "WG-802",
+        title: "GWLG-0902",
         image: welding_dp1,
       },
       {
-        title: "WG-803",
+        title: "GWLG-0903",
         image: welding_dp2,
       },
       {
-        title: "WG-804",
+        title: "GWLG-0904",
         image: welding_dp3,
       },
       {
-        title: "WG-805",
+        title: "GWLG-0905",
         image: welding_dp4,
       },
       {
-        title: "WG-806",
+        title: "GWLG-0906",
         image: welding_dpf_0,
       },
       {
-        title: "WG-807",
+        title: "GWLG-0907",
         image: welding_dpf_1,
       },
       {
-        title: "WG-808",
+        title: "GWLG-0908",
         image: welding_dpgw,
       },
       {
-        title: "WG-809",
+        title: "GWLG-0909",
         image: welding_dpit,
       },
       {
-        title: "WG-810",
+        title: "GWLG-0910",
         image: welding_nwg_0,
       },
       {
-        title: "WG-811",
+        title: "GWLG-0911",
         image: welding_nwg_1,
       },
       {
-        title: "WG-812",
+        title: "GWLG-0912",
         image: welding_nwg_2,
       },
     ],
@@ -454,51 +471,51 @@ export const ProductsTexts = {
     cover: weld_accessories_cover,
     cards: [
       {
-        title: "WA-901",
+        title: "GTWA-13901",
         image: weld_swg_9,
       },
       {
-        title: "WA-902",
+        title: "GTWA-13902",
         image: weld_swg_0,
       },
       {
-        title: "WA-903",
+        title: "GTWA-13903",
         image: weld_swg_1,
       },
       {
-        title: "WA-904",
+        title: "GTWA-13904",
         image: weld_swg_2,
       },
       {
-        title: "WA-9055",
+        title: "GTWA-13905",
         image: weld_swg_3,
       },
       {
-        title: "WA-906",
+        title: "GTWA-13906",
         image: weld_swg_4,
       },
       {
-        title: "WA-907",
+        title: "GTWA-13907",
         image: weld_swg_5,
       },
       {
-        title: "WA-908",
+        title: "GTWA-13908",
         image: welding_hood,
       },
       {
-        title: "WA-909",
+        title: "GTWA-13909",
         image: weld_swg_7,
       },
       {
-        title: "WA-910",
+        title: "GTWA-13910",
         image: weld_swg_8,
       },
       {
-        title: "WA-911",
+        title: "GTWA-13911",
         image: weld_swg_6,
       },
       {
-        title: "WA-912",
+        title: "GTWA-13912",
         image: weld_swg_10,
       },
     ],
@@ -507,15 +524,15 @@ export const ProductsTexts = {
     title: "TIG Gloves",
     cards: [
       {
-        title: "TG-601",
+        title: "TIG-1201",
         image: tig_0,
       },
       {
-        title: "TG-602",
+        title: "TIG-1202",
         image: tig_1,
       },
       {
-        title: "TG-603",
+        title: "TIG-1203",
         image: tig_2,
       },
     ],
@@ -525,6 +542,7 @@ export const ProductsTexts = {
 export const LeatherTexts = {
   crust_leather: {
     title: "Crust Leather",
+    cover: cl_cover,
     cards: [
       {
         title: "CL-100",
@@ -550,6 +568,7 @@ export const LeatherTexts = {
   },
   finished_leather: {
     title: "Finished Leather",
+    cover: fl_cover,
     cards: [
       {
         title: "FL-200",
@@ -577,7 +596,35 @@ export const LeatherTexts = {
       }
     ],
   }
-}
+};
+
+export const GalleryImages = [
+  {
+    id: 1,
+    url: gallery1,
+    alt: "travel",
+  },
+  {
+    id: 2,
+    url: gallery2,
+    alt: "nature",
+  },
+  {
+    id: 3,
+    url: gallery3,
+    alt: "beach",
+  },
+  {
+    id: 4,
+    url: gallery4,
+    alt: "mountain",
+  },
+  {
+    id: 5,
+    url: gallery5,
+    alt: "city",
+  },
+];
 
 export const BookingStepsTexts = {
   firstText: "Easy and Fast",

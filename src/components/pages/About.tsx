@@ -10,12 +10,11 @@ const AboutUs: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="about-us__description">
             <p className="text-base leading-loose mb-4">
-              Luxury Leather is a leather product company founded in 2024 by Mr.
-              Husnain. Our mission is to elevate the everyday by crafting
-              exceptional leather goods that are both stylish and functional. We
-              are passionate about preserving the legacy of craftsmanship and
-              believe that high-quality leather products should be accessible to
-              everyone.
+              Leather manufacturers be in production since 2000. Our mission is
+              to elevate the everyday by crafting exceptional leather goods that
+              are both stylish and functional. We are passionate about
+              preserving the legacy of craftsmanship and believe that
+              high-quality leather products should be accessible to everyone.
             </p>
             <p className="text-base leading-loose">
               Luxury Leather has a rich history dating back to 1986, originally

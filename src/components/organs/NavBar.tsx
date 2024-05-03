@@ -8,9 +8,10 @@ import { List } from "../atoms/List";
 import { HashLink } from "react-router-hash-link";
 import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
 import { Slide } from "react-awesome-reveal";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
 
   const [open, setOpen] = useState(false);
   // const [scrollY, setScrollY] = useState(0)
@@ -193,7 +194,7 @@ const NavBar = () => {
                             return newState;
                           });
                         } else {
-                          // navigate(navlink.url)
+                          navigate(navlink.url)
                           handleToggle();
                         }
                       }}
