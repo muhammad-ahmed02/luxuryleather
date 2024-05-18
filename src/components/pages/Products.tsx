@@ -32,8 +32,8 @@ const Products = () => {
       {name === "tig-gloves" && (
         <CategoryCard data={ProductsTexts.tig_gloves} />
       )}
-      {name === "welding-accessories" && (
-        <CategoryCard data={ProductsTexts.welding_accessories} />
+      {name === "accessories" && (
+        <CategoryCard data={ProductsTexts.accessories} />
       )}
 
       {/* LEATHER  */}

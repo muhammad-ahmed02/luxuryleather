@@ -16,6 +16,12 @@ import goatskin2 from "../../assets/driver_gloves/Goatskin-Working-Gloves_2.png"
 import goatskin3 from "../../assets/driver_gloves/Goatskin-Working-Gloves_3.png";
 import goatskin4 from "../../assets/driver_gloves/Goatskin-Working-Gloves_4.png";
 import goatskin5 from "../../assets/driver_gloves/Goatskin-Working-Gloves_5.png";
+import dg3 from "../../assets/driver_gloves/dg3.png";
+import dg4 from "../../assets/driver_gloves/dg4.jpg";
+import dg5 from "../../assets/driver_gloves/dg5.jpg";
+import dg6 from "../../assets/driver_gloves/dg6.png";
+import dg7 from "../../assets/driver_gloves/dg7.png";
+import dg8 from "../../assets/driver_gloves/dg8.png";
 
 // ASSEMBLY GLOVES
 import assembly_cover from "../../assets/covers/assembly-cover.jpg";
@@ -30,6 +36,11 @@ import assembly5 from "../../assets/assembly_gloves/assembly-gloves_5.jpg";
 import assembly6 from "../../assets/assembly_gloves/assembly-gloves_6.jpg";
 import assembly7 from "../../assets/assembly_gloves/assembly-gloves_7.jpg";
 import assembly8 from "../../assets/assembly_gloves/assembly-gloves_8.png";
+import assembly9 from "../../assets/assembly_gloves/ag9.png";
+import assembly10 from "../../assets/assembly_gloves/ag10.png";
+import assembly11 from "../../assets/assembly_gloves/ag11.png";
+import assembly12 from "../../assets/assembly_gloves/ag12.png";
+import assembly13 from "../../assets/assembly_gloves/ag13.png";
 
 // CANADIAN RIGGER GLOVES
 import rigger_cover from "../../assets/canadian-rigger-gloves/canadian-cover.jpg";
@@ -45,6 +56,10 @@ import cr7 from "../../assets/canadian-rigger-gloves/cr_7.png";
 import cr8 from "../../assets/canadian-rigger-gloves/cr_8.png";
 import gcr from "../../assets/canadian-rigger-gloves/gcr.png";
 import gcr0 from "../../assets/canadian-rigger-gloves/gcr_1.png";
+import cr9 from "../../assets/canadian-rigger-gloves/cr9.png";
+import cr10 from "../../assets/canadian-rigger-gloves/cr10.png";
+import cr11 from "../../assets/canadian-rigger-gloves/cr11.png";
+import cr12 from "../../assets/canadian-rigger-gloves/cr12.png";
 
 // IMPACT GLOVES
 import impact_cover from "../../assets/covers/impact.png";
@@ -54,6 +69,9 @@ import impact2 from "../../assets/impact-gloves/impact-gloves2.jpg";
 import impact3 from "../../assets/impact-gloves/impact-gloves3.jpg";
 import impact4 from "../../assets/impact-gloves/impact-gloves4.jpg";
 import impact5 from "../../assets/impact-gloves/impact-gloves5.jpg";
+import impact6 from "../../assets/impact-gloves/ig6.png";
+import impact7 from "../../assets/impact-gloves/ig7.png";
+import impact8 from "../../assets/impact-gloves/ig8.png";
 
 // WELDING GLOVES
 import welding_cover from "../../assets/covers/welding-cover.jpg";
@@ -69,21 +87,36 @@ import welding_dpit from "../../assets/welding-gloves/dpit.png";
 import welding_nwg_0 from "../../assets/welding-gloves/nwg_0.png";
 import welding_nwg_1 from "../../assets/welding-gloves/nwg_1.png";
 import welding_nwg_2 from "../../assets/welding-gloves/nwg_2.png";
+import welding_nwg_3 from "../../assets/welding-gloves/nwg_3.png";
+import welding_nwg_4 from "../../assets/welding-gloves/nwg_4.png";
+import welding_nwg_5 from "../../assets/welding-gloves/nwg_5.png";
+import welding_nwg_6 from "../../assets/welding-gloves/nwg_6.png";
+import welding_nwg_7 from "../../assets/welding-gloves/nwg_7.png";
 
-// WELDING ACCESSORIES
-import weld_accessories_cover from "../../assets/welding-accessories/appron.png";
-import weld_swg_0 from "../../assets/welding-accessories/swg_0.png";
-import weld_swg_1 from "../../assets/welding-accessories/swg_1.png";
-import weld_swg_2 from "../../assets/welding-accessories/swg_2.png";
-import weld_swg_3 from "../../assets/welding-accessories/swg_3.png";
-import weld_swg_4 from "../../assets/welding-accessories/swg_4.png";
-import weld_swg_5 from "../../assets/welding-accessories/swg_5.png";
-import weld_swg_6 from "../../assets/welding-accessories/swg_6.png";
-import weld_swg_7 from "../../assets/welding-accessories/swg_7.png";
-import weld_swg_8 from "../../assets/welding-accessories/swg_8.png";
-import weld_swg_9 from "../../assets/welding-accessories/swg_9.png";
-import weld_swg_10 from "../../assets/welding-accessories/swg_10.png";
-import welding_hood from "../../assets/welding-accessories/welding-hood.jpg";
+// ACCESSORIES
+// import weld_accessories_cover from "../../assets/accessories/appron.png";
+import weld_swg_0 from "../../assets/accessories/swg_0.png";
+import weld_swg_1 from "../../assets/accessories/swg_1.png";
+import weld_swg_2 from "../../assets/accessories/swg_2.png";
+import weld_swg_3 from "../../assets/accessories/swg_3.png";
+import weld_swg_4 from "../../assets/accessories/swg_4.png";
+import weld_swg_5 from "../../assets/accessories/swg_5.png";
+import weld_swg_6 from "../../assets/accessories/swg_6.png";
+import weld_swg_7 from "../../assets/accessories/swg_7.png";
+import weld_swg_8 from "../../assets/accessories/swg_8.png";
+import weld_swg_9 from "../../assets/accessories/swg_9.png";
+import weld_swg_10 from "../../assets/accessories/swg_10.png";
+import welding_hood from "../../assets/accessories/welding-hood.jpg";
+import weld_swg_11 from "../../assets/accessories/swg_11.png";
+import weld_swg_12 from "../../assets/accessories/swg_12.png";
+import weld_swg_13 from "../../assets/accessories/swg_13.png";
+import weld_swg_14 from "../../assets/accessories/swg_14.png";
+import weld_swg_15 from "../../assets/accessories/swg_15.png";
+import weld_swg_16 from "../../assets/accessories/swg_16.png";
+import weld_swg_17 from "../../assets/accessories/swg_17.png";
+import weld_swg_18 from "../../assets/accessories/swg_18.png";
+import weld_swg_19 from "../../assets/accessories/swg_19.png";
+import weld_swg_20 from "../../assets/accessories/swg_20.png";
 
 // TIG Gloves
 import tig_0 from "../../assets/tig-gloves/tig_0.webp";
@@ -147,8 +180,8 @@ export const NavLinks = [
         url: "/tig-gloves",
       },
       {
-        name: "Welding Accessories",
-        url: "/welding-accessories",
+        name: "Accessories",
+        url: "/accessories",
       }
     ]
   },
@@ -288,6 +321,26 @@ export const ProductsTexts = {
         title: "SGAG-32510",
         image: assembly7,
       },
+      {
+        title: "SGAG-32511",
+        image: assembly9,
+      },
+      {
+        title: "SGAG-32512",
+        image: assembly10,
+      },
+      {
+        title: "SGAG-32513",
+        image: assembly11,
+      },
+      {
+        title: "SGAG-32514",
+        image: assembly12,
+      },
+      {
+        title: "SGAG-32515",
+        image: assembly13,
+      },
     ],
   },
   driver_gloves: {
@@ -325,6 +378,30 @@ export const ProductsTexts = {
       {
         title: "DGPPE-34211",
         image: goatskin5,
+      },
+      {
+        title: "DGPPE-34212",
+        image: dg3,
+      },
+      {
+        title: "DGPPE-34213",
+        image: dg4,
+      },
+      {
+        title: "DGPPE-34214",
+        image: dg5,
+      },
+      {
+        title: "DGPPE-34215",
+        image: dg6,
+      },
+      {
+        title: "DGPPE-34216",
+        image: dg7,
+      },
+      {
+        title: "DGPPE-34217",
+        image: dg8,
       },
     ],
   },
@@ -380,6 +457,22 @@ export const ProductsTexts = {
         title: "SGCG-71915",
         image: gcr0,
       },
+      {
+        title: "SGCG-71916",
+        image: cr9,
+      },
+      {
+        title: "SGCG-71917",
+        image: cr10,
+      },
+      {
+        title: "SGCG-71918",
+        image: cr11,
+      },
+      {
+        title: "SGCG-71919",
+        image: cr12,
+      }
     ],
   },
   impact_gloves: {
@@ -409,6 +502,18 @@ export const ProductsTexts = {
       {
         title: "LLIG-13409",
         image: impact5,
+      },
+      {
+        title: "LLIG-13410",
+        image: impact6,
+      },
+      {
+        title: "LLIG-13411",
+        image: impact7,
+      },
+      {
+        title: "LLIG-13412",
+        image: impact8,
       },
     ],
   },
@@ -464,11 +569,31 @@ export const ProductsTexts = {
         title: "GWLG-0912",
         image: welding_nwg_2,
       },
+      {
+        title: "GWLG-0913",
+        image: welding_nwg_3,
+      },
+      {
+        title: "GWLG-0914",
+        image: welding_nwg_4,
+      },
+      {
+        title: "GWLG-0915",
+        image: welding_nwg_5,
+      },
+      {
+        title: "GWLG-0916",
+        image: welding_nwg_6,
+      },
+      {
+        title: "GWLG-0917",
+        image: welding_nwg_7,
+      },
     ],
   },
-  welding_accessories: {
+  accessories: {
     title: "Welding Accessories",
-    cover: weld_accessories_cover,
+    cover: weld_swg_11,
     cards: [
       {
         title: "GTWA-13901",
@@ -518,6 +643,46 @@ export const ProductsTexts = {
         title: "GTWA-13912",
         image: weld_swg_10,
       },
+      {
+        title: "GTWA-13913",
+        image: weld_swg_11,
+      },
+      {
+        title: "GTWA-13914",
+        image: weld_swg_12,
+      },
+      {
+        title: "GTWA-13915",
+        image: weld_swg_13,
+      },
+      {
+        title: "GTWA-13916",
+        image: weld_swg_14,
+      },
+      {
+        title: "GTWA-13917",
+        image: weld_swg_15,
+      },
+      {
+        title: "GTWA-13918",
+        image: weld_swg_16,
+      },
+      {
+        title: "GTWA-13919",
+        image: weld_swg_17,
+      },
+      {
+        title: "GTWA-13920",
+        image: weld_swg_18,
+      },
+      {
+        title: "GTWA-13921",
+        image: weld_swg_19,
+      },
+      {
+        title: "GTWA-13922",
+        image: weld_swg_20,
+      }
     ],
   },
   tig_gloves: {
@@ -703,7 +868,7 @@ export const FooterTexts = {
         url: "mailto:luxuryleather.hussain@gmail.com"
       },
       {
-        name: "P&T Society P&T Chs Sector 31 D Korangi, Karachi, Pakistan.",
+        name: "P&T CHS Sector 31-D korangi industrial Area Karachi, Pakistan Postal Code - 74900",
         url: "#"
       }
     ],
