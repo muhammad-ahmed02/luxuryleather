@@ -118,7 +118,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-start gap-4">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14484.597610702349!2d67.08220445!3d24.824563849999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sus!4v1716069922925!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.987985028887!2d67.11966629999999!3d24.830084499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33b0024669bab%3A0x5f992ba1140957fe!2sLuxuryLeather!5e0!3m2!1sen!2sus!4v1716114189612!5m2!1sen!2sus"
             width="300"
             height="300"
             style={{ border: "0" }}
